@@ -11,6 +11,7 @@ func main() {
 	genericFunc("hello")
 	genericFunc(123)
 	fmt.Println(helper.HelperFunc())
+	fmt.Println(helper.IsPalindrome("MADAM"))
 }
 
 func genericFunc[k string | int](thing k) {
