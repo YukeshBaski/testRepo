@@ -13,6 +13,7 @@ func main() {
 	fmt.Println(helper.HelperFunc())
 	fmt.Println(helper.IsPalindrome("MADAM"))
 	fmt.Println(helper.IsPalyndromeFromNewBranch("MADDAM"))
+	fmt.Println("use rebase")
 }
 
 func genericFunc[k string | int](thing k) {
