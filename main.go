@@ -12,6 +12,7 @@ func main() {
 	genericFunc(123)
 	fmt.Println(helper.HelperFunc())
 	fmt.Println(helper.IsPalindrome("MADAM"))
+	fmt.Println(helper.IsPalyndromeFromNewBranch("MADDAM"))
 }
 
 func genericFunc[k string | int](thing k) {
